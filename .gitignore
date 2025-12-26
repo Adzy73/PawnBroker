@@ -4,3 +4,16 @@ __pycache__/
 venv/
 ENV/
 .DS_Store
+
+# Test and build outputs
+.coverage
+.pytest_cache/
+coverage.xml
+
+# Editor
+.vscode/
+.idea/
+
+# Local artifacts
+kickoff_result.json
+.env
